@@ -15,9 +15,9 @@ I am an engineering student passionate about **Embedded Systems** and **Robotics
 
 -  I’m currently developing a **Quadcopter Simulation** using **ROS 2 Jazzy** & **Gazebo**.
 -  I’m building a **Robot Dog** (Inverse Kinematics & Gait Generation) in **MATLAB** & **CoppeliaSim**.
--  I write **Bare-Metal C** drivers for the **STM32F407** (UART, CAN, PWM, ADC).
+-  I write **Bare-Metal C** drivers for the **STM32** (UART, CAN, PWM, ADC).
 -  I’m exploring **Artificial Intelligence**, specifically Genetic Algorithms and Neural Networks.
--  Ask me about **Control Theory (PID, Fuzzy, SMC, etc), FPGA Design (Verilog), ROS2 and RTOS**.
+-  Ask me about **Control Theory (PID, FLC, SMC, MPC, VMC, etc), FPGA Design (Verilog), ROS2, and RTOS**.
 
 ---
 
