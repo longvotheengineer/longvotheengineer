@@ -52,8 +52,8 @@ I am an engineering student passionate about **Embedded Systems** and **Robotics
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| ** Robot Dog Locomotion** | Simulated quadruped robot with custom FK/IK solvers and Trot/Walk gait generation. Integrated with IMU feedback. | `MATLAB` `CoppeliaSim` `Control Theory` |
-| ** Quadcopter Drone** | Autonomous drone simulation environment utilizing modern robotics middleware. | `ROS 2 Jazzy` `Gazebo` `C++` `Python` |
+| **Robot Dog Locomotion** | Simulated quadruped robot with custom FK/IK solvers and Trot/Walk gait generation. Integrated with IMU feedback. | `MATLAB` `CoppeliaSim` `Control Theory` |
+| **Quadcopter Drone** | Autonomous drone simulation environment utilizing modern robotics middleware. | `ROS 2 Jazzy` `Gazebo` `C++` `Python` |
 | **STM32F4 Drivers** | Register-level peripheral drivers written from scratch for the STM32F4-Discovery board. | `Embedded C` `Bare Metal` `STM32` |
 
 ---
