@@ -1,23 +1,43 @@
+<!-- Animated Waving Header Banner -->
 <div align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px">
-  <h1 align="center">Hi there, I'm Long Vo!</h1>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,03234B,2196F3,183047&height=250&section=header&text=Long%20Vo&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Embedded%20Systems%20%7C%20Robotics%20Developer%20%7C%20Hardware%20Architect&descAlignY=61&descSize=20" alt="Animated Header Banner" width="100%"/>
+</div>
 
+<!-- Animated Typing Terminal -->
+<div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Embedded+Systems+Engineer;Robotics+Developer+(ROS+2+%26+MATLAB);Building+Robot+Dogs+%26+Drones;C+%7C+C%2B%2B+%7C+Verilog+%7C+Python" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=16&pause=1000&color=2196F3&center=true&vCenter=true&width=750&lines=%3E_Architecting+bare-metal+systems+from+scratch...;%3E_Synthesizing+kinematics+for+quadrupedal+robots...;%3E_Bridging+algorithmic+models+with+hardware+execution...;%3E_Developing+ROS+2+pipelines+for+autonomous+drones..." alt="Typing SVG" />
   </a>
 </div>
 
----
+<br/>
 
-### About Me
-
-I am an engineering student passionate about **Embedded Systems** and **Robotics**. I specialize in low-level driver development and control algorithms, bridging the gap between hardware registers and high-level simulation.
-
--  I’m currently developing a **Quadcopter Simulation** using **ROS 2 Jazzy** & **Gazebo**.
--  I’m building a **Robot Dog** (Inverse Kinematics & Gait Generation) in **MATLAB** & **CoppeliaSim**.
--  I write **Bare-Metal C** drivers for the **STM32** (UART, CAN, PWM, ADC).
--  I’m exploring **Artificial Intelligence**, specifically Genetic Algorithms and Neural Networks.
--  Ask me about **Control Theory (PID, FLC, SMC, MPC, VMC, etc), FPGA Design (Verilog), ROS2, and RTOS**.
+<table align="center" style="border-collapse: collapse; border: none; width: 100%;">
+  <tr style="border: none;">
+    <td width="60%" valign="top" style="border: none;">
+      <h3>Engineering Focus & Architecture</h3>
+      <p align="justify">
+        I am an engineer dedicated to the synthesis of <b>Control Theory</b>, <b>Low-level Driver Architecture</b>, and <b>Robotic Autonomy</b>. My structural approach focuses on constructing deterministic systems capable of complex real-world interaction—from implementing state-machine-driven gait generation for multi-axis robots to writing direct bare-metal firmware for microcontrollers.
+      </p>
+      <h4> Current Engineering Initiatives</h4>
+      <ul>
+        <li> <b>Simulating Autonomy:</b> Orchestrating a Quadcopter Simulation utilizing modern middleware (<b>ROS 2 Jazzy</b> & <b>Gazebo</b>).</li>
+        <li> <b>Quadruped Locomotion:</b> Architecting Inverse Kinematics and IMU-based balance stabilization using <b>MATLAB</b> & <b>CoppeliaSim</b>.</li>
+        <li> <b>Hardware Proximity:</b> Crafting Register-Level <b>Bare-Metal C</b> drivers tailored for <b>STM32</b> (UART, CAN, PWM, ADC).</li>
+        <li> <b>Machine Intelligence:</b> Researching stochastic optimization via <b>Genetic Algorithms</b> and biologically inspired Neural Networks.</li>
+      </ul>
+      <blockquote>
+        <p> <i><b>Inquiries welcome regarding:</b> Control Theory (PID, FLC, SMC, MPC, VMC), FPGA Design (Verilog), RTOS ecosystems, and ROS 2 integrations.</i></p>
+      </blockquote>
+    </td>
+    <td width="40%" align="center" valign="middle" style="border: none;">
+      <!-- Splitted Quadruped Robot Digital Simulation Animations -->
+      <img src="./robot_top.gif" width="100%" style="border-radius: 12px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);" alt="Quadruped Robot 1" />
+      <br/><br/>
+      <img src="./robot_bottom.gif" width="100%" style="border-radius: 12px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);" alt="Quadruped Robot 2" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -50,11 +70,11 @@ I am an engineering student passionate about **Embedded Systems** and **Robotics
 
 ### Featured Projects
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
+| Project                  | Description                                                                                                      | Tech Stack                              |
+| :----------------------- | :--------------------------------------------------------------------------------------------------------------- | :-------------------------------------- |
 | **Robot Dog Locomotion** | Simulated quadruped robot with custom FK/IK solvers and Trot/Walk gait generation. Integrated with IMU feedback. | `MATLAB` `CoppeliaSim` `Control Theory` |
-| **Quadcopter Drone** | Autonomous drone simulation environment utilizing modern robotics middleware. | `ROS 2 Jazzy` `Gazebo` `C++` `Python` |
-| **STM32F4 Drivers** | Register-level peripheral drivers written from scratch for the STM32F4-Discovery board. | `Embedded C` `Bare Metal` `STM32` |
+| **Quadcopter Drone**     | Autonomous drone simulation environment utilizing modern robotics middleware.                                    | `ROS 2 Jazzy` `Gazebo` `C++` `Python`   |
+| **STM32F4 Drivers**      | Register-level peripheral drivers written from scratch for the STM32F4-Discovery board.                          | `Embedded C` `Bare Metal` `STM32`       |
 
 ---
 
