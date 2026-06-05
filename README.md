@@ -6,38 +6,17 @@
 <!-- Animated Typing Terminal -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=16&pause=1000&color=2196F3&center=true&vCenter=true&width=750&lines=%3E_Architecting+bare-metal+systems+from+scratch...;%3E_Synthesizing+kinematics+for+quadrupedal+robots...;%3E_Bridging+algorithmic+models+with+hardware+execution...;%3E_Developing+ROS+2+pipelines+for+autonomous+drones..." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=16&pause=1000&color=2196F3&center=true&vCenter=true&width=750&lines=%3E_Programming+bare-metal+STM32+microcontrollers...;%3E_Simulating+quadruped+and+robotic+arms...;%3E_Developing+firmware+for+IoT+devices...;%3E_Implementing+motor+control+(PID,+FLC,+SMC)..." alt="Typing SVG" />
   </a>
 </div>
 
 <br/>
 
-<table align="center" style="border-collapse: collapse; border: none; width: 100%;">
-  <tr style="border: none;">
-    <td width="60%" valign="top" style="border: none;">
-      <h3>Engineering Focus & Architecture</h3>
-      <p align="justify">
-        I am an engineer dedicated to the synthesis of <b>Control Theory</b>, <b>Low-level Driver Architecture</b>, and <b>Robotic Autonomy</b>. My structural approach focuses on constructing deterministic systems capable of complex real-world interaction—from implementing state-machine-driven gait generation for multi-axis robots to writing direct bare-metal firmware for microcontrollers.
-      </p>
-      <h4> Current Engineering Initiatives</h4>
-      <ul>
-        <li> <b>Simulating Autonomy:</b> Orchestrating a Quadcopter Simulation utilizing modern middleware (<b>ROS 2 Jazzy</b> & <b>Gazebo</b>).</li>
-        <li> <b>Quadruped Locomotion:</b> Architecting Inverse Kinematics and IMU-based balance stabilization using <b>MATLAB</b> & <b>CoppeliaSim</b>.</li>
-        <li> <b>Hardware Proximity:</b> Crafting Register-Level <b>Bare-Metal C</b> drivers tailored for <b>STM32</b> (UART, CAN, PWM, ADC).</li>
-        <li> <b>Machine Intelligence:</b> Researching stochastic optimization via <b>Genetic Algorithms</b> and biologically inspired Neural Networks.</li>
-      </ul>
-      <blockquote>
-        <p> <i><b>Inquiries welcome regarding:</b> Control Theory (PID, FLC, SMC, MPC, VMC), FPGA Design (Verilog), RTOS ecosystems, and ROS 2 integrations.</i></p>
-      </blockquote>
-    </td>
-    <td width="40%" align="center" valign="middle" style="border: none;">
-      <!-- Splitted Quadruped Robot Digital Simulation Animations -->
-      <img src="./robot_top.gif" width="100%" style="border-radius: 12px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);" alt="Quadruped Robot 1" />
-      <br/><br/>
-      <img src="./robot_bottom.gif" width="100%" style="border-radius: 12px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);" alt="Quadruped Robot 2" />
-    </td>
-  </tr>
-</table>
+### Engineering Focus
+
+I am an engineer focused on **Control Theory**, **Low-level Driver Architecture**, and **Robotic Autonomy**. I specialize in building deterministic systems, bare-metal firmware for microcontrollers, and state-machine-driven robotics.
+
+> *Core strengths: Control Theory (PID, FLC, SMC), Bare-Metal C (STM32), Kinematics, and ROS 2.*
 
 ---
 
@@ -55,6 +34,8 @@
   <h3>Embedded & Hardware</h3>
   <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
   <img src="https://img.shields.io/badge/ARM-0091BD?style=for-the-badge&logo=arm&logoColor=white" />
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jetson_Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Quartus_II-0071C5?style=for-the-badge&logo=intel&logoColor=white" />
   <img src="https://img.shields.io/badge/Keil_uVision-00599C?style=for-the-badge&logo=arm&logoColor=white" />
 
@@ -62,7 +43,11 @@
   <img src="https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white" />
   <img src="https://img.shields.io/badge/Gazebo-FF6F00?style=for-the-badge&logo=gazebo&logoColor=white" />
   <img src="https://img.shields.io/badge/CoppeliaSim-183047?style=for-the-badge&logo=robot&logoColor=white" />
+
+  <h3>DevOps & Workflow</h3>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
 
 </div>
 
@@ -72,28 +57,12 @@
 
 | Project                  | Description                                                                                                      | Tech Stack                              |
 | :----------------------- | :--------------------------------------------------------------------------------------------------------------- | :-------------------------------------- |
-| **Robot Dog Locomotion** | Simulated quadruped robot with custom FK/IK solvers and Trot/Walk gait generation. Integrated with IMU feedback. | `MATLAB` `CoppeliaSim` `Control Theory` |
-| **Quadcopter Drone**     | Autonomous drone simulation environment utilizing modern robotics middleware.                                    | `ROS 2 Jazzy` `Gazebo` `C++` `Python`   |
-| **STM32F4 Drivers**      | Register-level peripheral drivers written from scratch for the STM32F4-Discovery board.                          | `Embedded C` `Bare Metal` `STM32`       |
+| **Quadruped Robot**      | 12-DOF quadruped control framework with analytical forward/inverse kinematics and gait generation.               | `MATLAB` `ROS 2 Humble` `Gazebo`        |
+| **Manipulator-X**        | Interactive GUI simulator for a 4-DOF robotic arm, featuring 3D visualization and Trajectory Planning.           | `MATLAB App Designer` `Kinematics`      |
+| **DC Motor Control**     | Digital speed control system for DC motors using bare-metal programming and non-blocking UART/DMA.               | `Embedded C` `STM32F407` `PID Control`  |
 
 ---
 
-### GitHub Analytics
-
-<div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <!-- <img src="https://github-readme-stats.vercel.app/api?username=longvotheengineer&show_icons=true&theme=tokyonight&count_private=true" height="180" alt="stats graph" /> -->
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=longvotheengineer&layout=compact&theme=tokyonight&langs_count=6" height="180" alt="languages graph" /> -->
-  </a>
-</div>
-
-<div align="center">
-  <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=longvotheengineer&theme=tokyonight" alt="streak stats" /> -->
-</div>
-
----
 
 <div align="center"> 
   <a href="mailto:linhlong875@gmail.com">
