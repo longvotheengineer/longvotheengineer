@@ -27,16 +27,14 @@ I am an engineer focused on **Control Theory**, **Low-level Driver Architecture*
   <h3>Languages</h3>
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/MATLAB-D14F13?style=for-the-badge&logo=mathworks&logoColor=white" />
   <img src="https://img.shields.io/badge/Verilog-B0171F?style=for-the-badge&logo=intel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 
   <h3>Embedded & Hardware</h3>
   <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
-  <img src="https://img.shields.io/badge/ARM-0091BD?style=for-the-badge&logo=arm&logoColor=white" />
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
   <img src="https://img.shields.io/badge/Jetson_Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/Quartus_II-0071C5?style=for-the-badge&logo=intel&logoColor=white" />
   <img src="https://img.shields.io/badge/Keil_uVision-00599C?style=for-the-badge&logo=arm&logoColor=white" />
 
   <h3>Robotics & Simulation</h3>
@@ -47,8 +45,7 @@ I am an engineer focused on **Control Theory**, **Low-level Driver Architecture*
   <h3>DevOps & Workflow</h3>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
-
+  <img src="https://img.shields.io/badge/Qt_Framework-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
 </div>
 
 ---
